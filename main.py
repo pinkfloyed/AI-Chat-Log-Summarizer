@@ -15,8 +15,15 @@ def main():
     chat_file = "data/chat.txt"
 
     try:
+        # Prompt the user to choose method
+        method = input("Choose keyword extraction method (nltk / tfidf): ").strip().lower()
+        if method not in ["nltk", "tfidf"]:
+            print("Invalid method selected. Defaulting to 'nltk'.")
+            method = "nltk"
+
         user_msgs, ai_msgs = parse_chat(chat_file)
-        generate_summary(user_msgs, ai_msgs, top_n=10)
+        generate_summary(user_msgs, ai_msgs, top_n=5, method=method)
+
     except FileNotFoundError:
         print(f"Error: Chat file not found at '{chat_file}'.")
     except Exception as e:
