@@ -24,7 +24,9 @@ AI-Chat-Log-Summarizer/
 ├── README.md                   # Project overview and usage instructions
 ├── LICENSE                     # Licensing information
 ├── .gitignore                  # Specifies untracked files for Git
+├── tfidf_keywords.py           # Module for TF-IDF keyword extraction
 └── env                         # Environment variables/configuration folder
+
 ```
 ---
 
