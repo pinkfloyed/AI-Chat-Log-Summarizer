@@ -12,6 +12,7 @@ This project demonstrates basic Natural Language Processing (NLP) capabilities u
 
 ## 📂 Project Structure
 
+```text
 AI-Chat-Log-Summarizer/
 ├── data/
 │   └── chat.txt                # Sample chat log input file
@@ -24,8 +25,7 @@ AI-Chat-Log-Summarizer/
 ├── LICENSE                     # Licensing information
 ├── .gitignore                  # Specifies untracked files for Git
 └── env                         # Environment variables/configuration folder
-
-
+```
 ---
 
 ## 📌 Project Features
@@ -76,5 +76,5 @@ Provide a `.txt` file in the following structure :
 Install the required packages:
 ```bash
 pip install nltk
-
+```
 
