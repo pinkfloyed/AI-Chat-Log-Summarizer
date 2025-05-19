@@ -1,16 +1,16 @@
-User: Hello!
-AI: Hi! How can I assist you today?
-User: Can you explain what machine learning is?
-AI: Machine learning is a subset of AI that allows systems to learn patterns from data and improve over time without being explicitly programmed.
-User: What are the types of machine learning?
-AI: The three main types are supervised, unsupervised, and reinforcement learning.
-User: Can you explain supervised learning?
-AI: In supervised learning, the model learns from labeled training data to predict outcomes.
-User: What about unsupervised learning?
-AI: Unsupervised learning finds hidden patterns or structures in data without labeled outcomes.
-User: Is deep learning part of machine learning?
-AI: Yes, deep learning is a type of machine learning that uses neural networks with multiple layers.
-User: What are neural networks?
+User : Hello!
+AI : Hi! How can I assist you today?
+User : Can you explain what machine learning is?
+AI : Machine learning is a subset of AI that allows systems to learn patterns from data and improve over time without being explicitly programmed.
+User : What are the types of machine learning?
+AI : The three main types are supervised, unsupervised, and reinforcement learning.
+User : Can you explain supervised learning?
+AI : In supervised learning, the model learns from labeled training data to predict outcomes.
+User : What about unsupervised learning?
+AI : Unsupervised learning finds hidden patterns or structures in data without labeled outcomes.
+User : Is deep learning part of machine learning?
+AI : Yes, deep learning is a type of machine learning that uses neural networks with multiple layers.
+User : What are neural networks?
 AI: Neural networks are algorithms inspired by the human brain, consisting of interconnected nodes called neurons.
 User: How are they trained?
 AI: They are trained using optimization techniques like gradient descent and backpropagation.
