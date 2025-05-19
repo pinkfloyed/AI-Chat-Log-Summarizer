@@ -48,4 +48,16 @@ def extract_keywords(text, top_n=15):
     except Exception as e:
         print(f"Error extracting keywords: {e}")
         return []
+
+        combined = bigram_phrases + unigrams_sorted
+        return combined[:top_n]
+
+    except LookupError as e:
+        print("NLTK resource not found. Please ensure 'punkt' and 'stopwords' are downloaded.")
+        print("Run: nltk.download('punkt') and nltk.download('stopwords')")
+        return []
+
+    except Exception as e:
+        print(f"Error extracting keywords: {e}")
+        return []
         
