@@ -13,8 +13,14 @@ def main():
     """
 
     chat_file = "data/chat.txt"
-    user_msgs, ai_msgs = parse_chat(chat_file)
-    generate_summary(user_msgs, ai_msgs, top_n=10)
+
+    try:
+        user_msgs, ai_msgs = parse_chat(chat_file)
+        generate_summary(user_msgs, ai_msgs, top_n=10)
+    except FileNotFoundError:
+        print(f"Error: Chat file not found at '{chat_file}'.")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
     main()
