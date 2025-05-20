@@ -79,6 +79,18 @@ Each chat log file should follow this format :
          - summaries/all_nltk_summaries.txt 
          - summaries/all_tfidf_summaries.txt
 
+### **Sample outputs :**
+- After choosing nltk output summary will be shown in terminal :
+![nltk1](https://github.com/user-attachments/assets/628db039-ff11-48ba-afca-9b860e9f188d)
+
+**Figure 1 : Keyword extraction and summary based on nltk library**
+
+
+- After choosing TF-IDF approach output summary will be shown in terminal :
+![tfid1](https://github.com/user-attachments/assets/f3b831bf-9611-432b-a4e1-578dbdd7bdfe)
+
+**Figure 2 : Keyword extraction and summary based on TF-IDF approach**
+
 ---
 
 ## **Installation Steps :**
@@ -92,17 +104,24 @@ Each chat log file should follow this format :
    python3 -m venv env
 
 3. Activate the virtual environment :
+   # On Windows :
    ```bash
    env\Scripts\activate
+   ```
+   # On macOS/Linux :
+   ```bash
+   source env/bin/activate
+   ```
 
-4. Install dependencies :
+5. Install dependencies :
    ```bash
    pip install -r requirements.txt
 
-5. Ensure nltk is installed and stopwords downloaded :
+6. Ensure nltk is installed and stopwords downloaded :
    ```bash
    import nltk
    nltk.download('stopwords')
+   nltk.download('punkt')
    
 ### **Steps to Run the Project :**
    1. Run this command in the terminal :
