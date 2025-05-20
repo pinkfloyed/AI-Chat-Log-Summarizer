@@ -1,27 +1,23 @@
 from utils import extract_keywords
 from tfidf_keywords import extract_tfidf_keywords
 
-def generate_summary(user_messages, ai_messages, top_n=5, method="nltk"):
+def generate_summary(user_messages, ai_messages, top_n=5, method="nltk", return_lines=False):
     """
-    Generates and prints a summary of a conversation between user and AI.
+    Generates a summary of a conversation between user and AI.
 
     Args:
-        user_messages (list of str): Messages sent by the user.
-        ai_messages (list of str): Messages sent by the AI.
-        top_n (int): Number of top keywords to extract (default is 5).
-        method (str): Keyword extraction method - "nltk" or "tfidf".
+        user_messages (list of str)
+        ai_messages (list of str)
+        top_n (int)
+        method (str): "nltk" or "tfidf"
+        return_lines (bool): If True, return summary as list of strings instead of printing
 
-    Prints:
-        Summary statistics and main conversation topics with keywords.
+    Returns:
+        list or None: Returns summary lines if return_lines=True, else prints summary.
     """
 
     try:
         total_messages = len(user_messages) + len(ai_messages)
-        print("\nSummary:")
-        print(f"- The conversation had {total_messages} exchanges.")
-        print(f"- User messages: {len(user_messages)}")
-        print(f"- AI messages: {len(ai_messages)}")
-
         all_text = " ".join(user_messages + ai_messages)
 
         if method == "tfidf":
@@ -35,8 +31,24 @@ def generate_summary(user_messages, ai_messages, top_n=5, method="nltk"):
         else:
             main_topic = "The conversation topic could not be clearly identified."
 
-        print(f"- {main_topic}")
-        print(f"- Most common keywords: {', '.join(top_keywords[:5])}")
+        summary_lines = [
+            "\nSummary:",
+            f"- The conversation had {total_messages} exchanges.",
+            f"- User messages: {len(user_messages)}",
+            f"- AI messages: {len(ai_messages)}",
+            f"- {main_topic}",
+            f"- Most common keywords: {', '.join(top_keywords[:5])}"
+        ]
+
+        if return_lines:
+            return summary_lines
+        else:
+            for line in summary_lines:
+                print(line)
 
     except Exception as e:
-        print("An error occurred while generating the summary:", str(e))
+        error_msg = f"An error occurred while generating the summary: {e}"
+        if return_lines:
+            return [error_msg]
+        else:
+            print(error_msg)
