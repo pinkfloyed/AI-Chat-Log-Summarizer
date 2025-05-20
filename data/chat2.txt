@@ -1,0 +1,112 @@
+User : Hello!
+AI : Hi there! What can I help you with today?
+User : What is web development?
+AI : Web development is the process of building and maintaining websites and web applications.
+User : What are the main types of web development?
+AI : There are three main types: front-end, back-end, and full-stack development.
+User : What is front-end development?
+AI : Front-end development involves creating the visual part of a website that users interact with.
+User : What languages are used in front-end?
+AI : Common front-end languages include HTML, CSS, and JavaScript.
+User : What is HTML?
+AI : HTML (HyperText Markup Language) structures the content of web pages.
+User : What is CSS?
+AI : CSS (Cascading Style Sheets) styles the HTML elements on a webpage.
+User : What is JavaScript?
+AI : JavaScript adds interactivity and dynamic behavior to web pages.
+User : What is a front-end framework?
+AI : A front-end framework is a collection of tools to simplify building web interfaces, like React or Angular.
+User : What is React?
+AI : React is a JavaScript library for building user interfaces, especially single-page applications.
+User : What is Angular?
+AI : Angular is a front-end web framework developed by Google for building complex web apps.
+User : What is back-end development?
+AI : Back-end development focuses on server-side logic, databases, and APIs.
+User : What languages are used in back-end?
+AI : Popular back-end languages include Node.js, Python, PHP, Java, and Ruby.
+User : What is Node.js?
+AI : Node.js is a JavaScript runtime that lets you run JavaScript on the server side.
+User : What is an API?
+AI : An API (Application Programming Interface) allows software components to communicate with each other.
+User : What is a database?
+AI : A database stores and manages data for websites and applications.
+User : What are some common databases?
+AI : Common databases include MySQL, PostgreSQL, MongoDB, and SQLite.
+User : What is SQL?
+AI : SQL (Structured Query Language) is used to query and manage data in relational databases.
+User : What is MongoDB?
+AI : MongoDB is a NoSQL database that stores data in JSON-like documents.
+User : What is full-stack development?
+AI : Full-stack development involves both front-end and back-end development.
+User : What is a full-stack developer?
+AI : A full-stack developer works on both the client and server sides of a web application.
+User : What is a web server?
+AI : A web server delivers web content to users via their browsers.
+User : What is hosting?
+AI : Hosting is the service of storing website files on a server to make them accessible online.
+User : What is a domain name?
+AI : A domain name is a website's address on the internet, like example.com.
+User : What is HTTPS?
+AI : HTTPS (HyperText Transfer Protocol Secure) ensures encrypted communication over the web.
+User : What is a CMS?
+AI : A CMS (Content Management System) allows users to create and manage website content easily.
+User : What is WordPress?
+AI : WordPress is a popular open-source CMS used to build websites and blogs.
+User : What is responsive design?
+AI : Responsive design ensures that websites work well on different screen sizes and devices.
+User : What is Bootstrap?
+AI : Bootstrap is a CSS framework that helps design responsive websites quickly.
+User : What is a static website?
+AI : A static website has fixed content that doesn’t change unless manually updated.
+User : What is a dynamic website?
+AI : A dynamic website displays different content based on user interaction or server data.
+User : What is a single-page application (SPA)?
+AI : An SPA loads a single HTML page and updates content dynamically without reloading the page.
+User : What is version control?
+AI : Version control tracks changes in code over time, allowing collaboration and rollbacks.
+User : What is Git?
+AI : Git is a version control system widely used to manage and track code changes.
+User : What is GitHub?
+AI : GitHub is a platform for hosting Git repositories and collaborating on code.
+User : What is a code editor?
+AI : A code editor is a tool for writing and editing code, like VS Code or Sublime Text.
+User : What is VS Code?
+AI : VS Code is a popular, lightweight code editor developed by Microsoft.
+User : What is deployment?
+AI : Deployment is the process of making a web application available for users online.
+User : What is CI/CD?
+AI : CI/CD stands for Continuous Integration/Continuous Deployment, automating code testing and delivery.
+User : What are web development tools?
+AI : Tools include text editors, debuggers, version control, frameworks, and libraries.
+User : What is SEO?
+AI : SEO (Search Engine Optimization) improves website visibility on search engines.
+User : What are meta tags?
+AI : Meta tags provide information about a webpage, like description and keywords, to search engines.
+User : What is a favicon?
+AI : A favicon is the small icon shown in a browser tab next to the page title.
+User : What is a 404 error?
+AI : A 404 error means the requested page was not found on the server.
+User : What is REST?
+AI : REST (Representational State Transfer) is an architectural style for designing networked APIs.
+User : What is JSON?
+AI : JSON (JavaScript Object Notation) is a lightweight format for exchanging data between systems.
+User : What is AJAX?
+AI : AJAX allows web pages to be updated asynchronously without reloading the whole page.
+User : What is a cookie?
+AI : A cookie stores small pieces of data on the user's browser to track sessions or preferences.
+User : What is local storage?
+AI : Local storage is a browser feature that lets you store data persistently on the client side.
+User : What are web sockets?
+AI : WebSockets provide a way to open persistent connections between client and server for real-time data.
+User : What is frontend testing?
+AI : It involves testing UI components, often using tools like Jest or Cypress.
+User : What is accessibility in web development?
+AI : Accessibility ensures websites are usable by people with disabilities.
+User : What are HTML5 and CSS3?
+AI : HTML5 and CSS3 are the latest standards that include new elements and styling features.
+User : What is dark mode in UI design?
+AI : Dark mode is a UI theme with light text on dark backgrounds, preferred for low-light environments.
+User : How do I get started with web development?
+AI : Start by learning HTML, CSS, JavaScript, and practice building small projects.
+User : Thank you for the help!
+AI : You're welcome! Happy coding!

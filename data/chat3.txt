@@ -1,0 +1,96 @@
+User : Hello!
+AI : Hi! How can I assist you today?
+User : What is Python?
+AI : Python is a high-level, interpreted programming language known for its readability and versatility.
+User : What can Python be used for?
+AI : Python is used in web development, data science, AI, automation, scripting, and more.
+User : How do you write a comment in Python?
+AI : You write a comment using the # symbol. For example: # This is a comment
+User : What is a variable?
+AI : A variable stores data in memory. You can create one using syntax like: x = 5
+User : What are data types in Python?
+AI : Common types include int, float, str, list, tuple, dict, and bool.
+User : What is a list in Python?
+AI : A list is an ordered, mutable collection of items. Example: [1, 2, 3]
+User : What is a tuple?
+AI : A tuple is like a list but immutable. Example: (1, 2, 3)
+User : What is a dictionary?
+AI : A dictionary stores key-value pairs. Example: {'name': 'Alice', 'age': 25}
+User : How do you write a function in Python?
+AI : Use the def keyword. Example: def greet(): print("Hello")
+User : What is a loop?
+AI : A loop repeats code. Python has for and while loops.
+User : What is a for loop?
+AI : A for loop iterates over items. Example: for i in range(5): print(i)
+User : What is a while loop?
+AI : A while loop runs as long as a condition is true.
+User : What is an if statement?
+AI : It allows conditional execution. Example: if x > 0: print("Positive")
+User : What is a class in Python?
+AI : A class is a blueprint for creating objects. Example: class Dog: pass
+User : What is an object?
+AI : An object is an instance of a class with attributes and methods.
+User : What is inheritance?
+AI : Inheritance allows a class to use properties of another class.
+User : What is a module?
+AI : A module is a file with Python code that you can import and reuse.
+User : How do you import a module?
+AI : Use the import statement. Example: import math
+User : What is a package?
+AI : A package is a collection of modules organized in directories with __init__.py.
+User : What is exception handling?
+AI : It deals with errors using try-except blocks.
+User : How do you open a file?
+AI : Use open(). Example: f = open("file.txt", "r")
+User : What is with statement?
+AI : It simplifies file handling. Example: with open("file.txt") as f:
+User : What is a lambda function?
+AI : A lambda is an anonymous function. Example: lambda x: x + 1
+User : What is map()?
+AI : map() applies a function to all items in an iterable.
+User : What is filter()?
+AI : filter() selects items for which a function returns True.
+User : What is reduce()?
+AI : reduce() applies a rolling computation. It’s in functools.
+User : What is list comprehension?
+AI : A concise way to create lists. Example: [x for x in range(5)]
+User : What is a generator?
+AI : A generator yields items one by one using yield.
+User : What is a decorator?
+AI : A decorator modifies a function's behavior. Defined with @.
+User : What is recursion?
+AI : When a function calls itself to solve a problem.
+User : What is pip?
+AI : pip is the package installer for Python.
+User : What is virtualenv?
+AI : virtualenv creates isolated Python environments.
+User : What is NumPy?
+AI : NumPy is a library for numerical computing.
+User : What is Pandas?
+AI : Pandas provides data structures and tools for data analysis.
+User : What is Matplotlib?
+AI : It’s a plotting library for visualizing data.
+User : What is scikit-learn?
+AI : A machine learning library for Python.
+User : What is Flask?
+AI : Flask is a micro web framework in Python.
+User : What is Django?
+AI : Django is a high-level Python web framework for building robust applications.
+User : What is unit testing?
+AI : It involves testing individual parts of code using unittest or pytest.
+User : What is __init__.py?
+AI : It makes a directory a Python package.
+User : What is __name__ == "__main__"?
+AI : It lets you control code execution when a file is run directly.
+User : How do you install packages?
+AI : Use pip install package_name.
+User : What is a docstring?
+AI : A docstring documents a function, class, or module using triple quotes.
+User : What is type casting?
+AI : Converting one data type into another. Example: int("5")
+User : What is slicing?
+AI : Slicing extracts parts of sequences. Example: my_list[1:4]
+User : What is the difference between is and ==?
+AI : is checks identity; == checks equality.
+User : Thank you!
+AI : You're welcome! Let me know if you have more Python questions.
