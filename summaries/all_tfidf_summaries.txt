@@ -1,0 +1,57 @@
+Summary report for method: tfidf
+
+File: chat.txt
+
+Summary:
+- The conversation had 92 exchanges.
+- User messages: 46
+- AI messages: 46
+- The conversation was mainly about **learning, ai, data, models** and related topics.
+- Most common keywords: learning, ai, data, models, generative
+
+----------------------------------------
+
+File: chat1.txt
+
+Summary:
+- The conversation had 106 exchanges.
+- User messages: 53
+- AI messages: 53
+- The conversation was mainly about **security, data, phishing, cybersecurity** and related topics.
+- Most common keywords: security, data, phishing, cybersecurity, access
+
+----------------------------------------
+
+File: chat2.txt
+
+Summary:
+- The conversation had 112 exchanges.
+- User messages: 56
+- AI messages: 56
+- The conversation was mainly about **web, end, development, code** and related topics.
+- Most common keywords: web, end, development, code, website
+
+----------------------------------------
+
+File: chat3.txt
+
+Summary:
+- The conversation had 96 exchanges.
+- User messages: 48
+- AI messages: 48
+- The conversation was mainly about **python, example, function, data** and related topics.
+- Most common keywords: python, example, function, data, class
+
+----------------------------------------
+
+File: chat4.txt
+
+Summary:
+- The conversation had 114 exchanges.
+- User messages: 57
+- AI messages: 57
+- The conversation was mainly about **learning, model, data, machine** and related topics.
+- Most common keywords: learning, model, data, machine, training
+
+----------------------------------------
+

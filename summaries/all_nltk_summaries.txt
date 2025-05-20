@@ -1,0 +1,57 @@
+Summary report for method: nltk
+
+File: chat.txt
+
+Summary:
+- The conversation had 92 exchanges.
+- User messages: 46
+- AI messages: 46
+- The conversation was mainly about **neural networks, machine learning, generative ai, training data** and related topics.
+- Most common keywords: neural networks, machine learning, generative ai, training data, computer vision
+
+----------------------------------------
+
+File: chat1.txt
+
+Summary:
+- The conversation had 106 exchanges.
+- User messages: 53
+- AI messages: 53
+- The conversation was mainly about **unauthorized access, access control, best practices, cia triad** and related topics.
+- Most common keywords: unauthorized access, access control, best practices, cia triad, ethical hacking
+
+----------------------------------------
+
+File: chat2.txt
+
+Summary:
+- The conversation had 112 exchanges.
+- User messages: 56
+- AI messages: 56
+- The conversation was mainly about **version control, domain name, local storage, main types** and related topics.
+- Most common keywords: version control, domain name, local storage, main types, meta tags
+
+----------------------------------------
+
+File: chat3.txt
+
+Summary:
+- The conversation had 96 exchanges.
+- User messages: 48
+- AI messages: 48
+- The conversation was mainly about **web framework, write comment, ai automation, analysis plotting** and related topics.
+- Most common keywords: web framework, write comment, ai automation, analysis plotting, applications involves
+
+----------------------------------------
+
+File: chat4.txt
+
+Summary:
+- The conversation had 114 exchanges.
+- User messages: 57
+- AI messages: 57
+- The conversation was mainly about **machine learning, reinforcement learning, neural network, neural networks** and related topics.
+- Most common keywords: machine learning, reinforcement learning, neural network, neural networks, true positives
+
+----------------------------------------
+
